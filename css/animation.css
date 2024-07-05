@@ -1,0 +1,35 @@
+/* animation for neon glow effect */
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #cf01e0, 0 0 20px #0073e6,
+      0 0 25px #cf01e0, 0 0 30px #cf01e0, 0 0 35px #cf01e0;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #cf01e0,
+      0 0 40px #cf01e0, 0 0 50px #cf01e0, 0 0 60px #cf01e0, 0 0 70px #0073e6;
+  }
+}
+/* animation for static tv effect */
+@keyframes static {
+  0% {
+    transform: translateX(10%) translateY(10%);
+  }
+
+  100% {
+    transform: translateX(-10%) translateY(-10%);
+  }
+}
+
+/* project submit arrow animation */
+
+@keyframes moveup {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(5px, 5px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
