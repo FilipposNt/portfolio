@@ -168,4 +168,8 @@
   .card__info {
     font-size: 1.7rem;
   }
+  .project__cards {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
+  }
 }
