@@ -172,4 +172,7 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
   }
+  .border-bottom {
+    top: 13.5%;
+  }
 }
