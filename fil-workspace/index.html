@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fil - Web Developer</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lato:wght@300;400;700;900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/index.js"></script>
+  </head>
+  <body>
+    <!-- reload page opening -->
+    <div id="loader-overlay">
+      <div class="loader"></div>
+    </div>
+    <!--  -->
+
+    <div class="wrapper">
+      <nav id="hero-page" class="header">
+        <div class="header__menu">
+          <div class="header__about">
+            <a href="#about-section">About</a>
+            <span class="white">/</span>
+          </div>
+          <div class="header__contact">
+            <a href="#contact-section">Contact</a>
+            <span class="white">/</span>
+          </div>
+          <div class="header__project">
+            <a href="#project-section">My Work</a>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="hero">
+          <div class="hero__title">
+            <h1>
+              Hello, <br />
+              I'm <br />
+              Filippos
+            </h1>
+          </div>
+          <div class="hero__center-block">
+            <div class="hero__image">
+              <div class="static-overlay"></div>
+              <img
+                class="image"
+                src="/imgs/cybercity.jpg"
+                alt=""
+                draggable="false"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="project-section" class="project">
+          <div class="project__cards">
+            <div class="card">
+              <div class="card__image">
+                <img src="/imgs/proj1.jpg" alt="" />
+              </div>
+
+              <div class="card__details z-index-big">
+                <h3 class="card__title">Civil Engineer's Website</h3>
+                <p class="card__info">
+                  A showcase of my civil engineering project<br />
+                  Skills used: Html, Css, Js
+                </p>
+                <a
+                  class="card__link"
+                  target="_blank"
+                  href="https://morfouli-studio.gr/"
+                >
+                  <p>Live</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__image">
+                <img src="/imgs/traveling.jpg" alt="" />
+              </div>
+
+              <div class="card__details z-index-big">
+                <h3 class="card__title">Travel Agency Website</h3>
+                <p class="card__info">
+                  A showcase of my civil engineering project<br />
+                  Skills used: Html, Css, Js
+                </p>
+                <a
+                  class="card__link"
+                  target="_blank"
+                  href="https://jade-mochi-9e20d7.netlify.app/"
+                  >Live</a
+                >
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="border-top"></div>
+              <div class="underConstruction">
+                <p>Under Construction</p>
+              </div>
+              <div class="border-bottom"></div>
+
+              <div class="card__image">
+                <img src="/imgs/under construction image.jpg" alt="" />
+              </div>
+
+              <!-- <div class="card__details z-index-big">
+                <h3 class="card__title">Civil Engineer's Website</h3>
+                <p class="card__info">
+                  A showcase of my civil engineering project<br />
+                  Skills used: Html, Css, Js
+                </p>
+                <a
+                  class="card__link"
+                  target="_blank"
+                  href="https://dulcet-rugelach-7221f2.netlify.app/"
+                >
+                  <p>Live</p>
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </section>
+
+        <section id="about-section" class="about">
+          <div class="about__header">
+            <div class="about__header-title">
+              <h1>About me</h1>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <div class="about__info-para">
+              <p>
+                I am a dedicated front-end developer and UI/UX
+                designer(sometimes), passionate about crafting visually
+                appealing and user-centric digital experiences. With a deep
+                understanding of both design principles and web development
+                technologies, i bridge the gap between aesthetics and
+                functionality. My approach to design prioritizes user
+                experiences, ensuring that every interaction feels seemless and
+                intuitive.
+              </p>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="about__header-skills">
+            <h3>
+              <span>S</span>
+              <span>k</span>
+              <span>i</span>
+              <span>l</span>
+              <span>l</span>
+              <span>s</span>
+            </h3>
+            <ul>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Sass</li>
+              <li>Figma</li>
+              <li>Webflow</li>
+              <li>Javascript</li>
+              <li class="opacity-skill-medium">React</li>
+              <li class="opacity-skill-medium">Node.js</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="contact-section" class="contact">
+          <div class="contact__header">
+            <h1>Contact me</h1>
+            <ul class="contact__header-list">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/filippos-n/"
+                  target="_blank"
+                  ><span
+                    class="iconify"
+                    data-icon="streamline:linkedin-solid"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- image -->
+          <div class="contact__image">
+            <img
+              class="image-background"
+              src="/imgs/kevin-laminto-7PqRZK6rbaE-unsplash (1).jpg"
+              alt=""
+            />
+          </div>
+          <!-- form -->
+          <div class="contact__form">
+            <form id="form" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="876db7e3-96cc-480d-9fb9-c546c0a0fd0a"
+              />
+
+              <input
+                id="name"
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+                required
+              />
+              <input
+                id="email"
+                name="email"
+                type="text"
+                class="feedback-input"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                id="text"
+                name="text"
+                class="feedback-input"
+                placeholder="Describe your idea or say hello&#128512;"
+                required
+              ></textarea>
+              <input type="submit" value="SUBMIT" />
+
+              <div id="result"></div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- form -->
+    <script src="https://web3forms.com/client/script.js" async defer></script>
+    <script>
+      const form = document.getElementById("form");
+      const result = document.getElementById("result");
+
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+        result.innerHTML = "Please wait...";
+
+        fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+          },
+          body: json,
+        })
+          .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+              result.innerHTML = "Form submitted successfully";
+            } else {
+              console.log(response);
+              result.innerHTML = json.message;
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            result.innerHTML = "Something went wrong!";
+          })
+          .then(function () {
+            form.reset();
+            setTimeout(() => {
+              result.style.display = "none";
+            }, 3000);
+          });
+      });
+    </script>
+    <!--  -->
+  </body>
+</html>
