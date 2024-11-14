@@ -1,0 +1,275 @@
+/* Title drop */
+/* .header__drop-text-1 {
+  --fs-drop: 8rem;
+
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-66.5%);
+  font-weight: var(--fw-extra-bold);
+  user-select: none;
+  display: flex;
+  color: #fff;
+  z-index: 100;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #cf01e0, 0 0 25px #cf01e0,
+    0 0 30px #cf01e0, 0 0 35px #cf01e0;
+} */
+/* .header__drop-text-2 {
+  --fs-drop: 8rem;
+
+  position: absolute;
+  top: 32%;
+  left: 41.1%;
+  transform: translate(-66%);
+  font-weight: var(--fw-extra-bold);
+  user-select: none;
+  display: flex;
+  color: #fff;
+  z-index: 100;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #cf01e0, 0 0 25px #cf01e0,
+    0 0 30px #cf01e0, 0 0 35px #cf01e0;
+}
+.header__drop-text-3 {
+  --fs-drop: 8rem;
+
+  position: absolute;
+  top: 52%;
+  left: 56%;
+  transform: translate(-66%);
+  font-weight: var(--fw-extra-bold);
+  user-select: none;
+  display: flex;
+  color: #fff;
+  z-index: 100;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #cf01e0, 0 0 25px #cf01e0,
+    0 0 30px #cf01e0, 0 0 35px #cf01e0;
+} */
+/* HELLO */
+/* .h {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards;
+  font-size: var(--fs-drop);
+}
+
+.e {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards 0.2s;
+  font-size: var(--fs-drop);
+}
+
+.l {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards 0.4s;
+  font-size: var(--fs-drop);
+}
+
+.l2 {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards 0.6s;
+  font-size: var(--fs-drop);
+}
+
+.o {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards 0.8s;
+  font-size: var(--fs-drop);
+}
+.komma {
+  opacity: 0;
+  animation: drop-1 0.4s linear forwards 1s;
+  font-size: var(--fs-drop);
+}
+/* I'm */
+/* .i-2 {
+  opacity: 0;
+  animation: drop-2 0.5s linear forwards 1s;
+  font-size: var(--fs-drop);
+}
+.komma2 {
+  opacity: 0;
+  animation: drop-2 0.5s linear forwards 1.2s;
+  font-size: var(--fs-drop);
+}
+.m-2 {
+  opacity: 0;
+  animation: drop-2 0.5s linear forwards 1.4s;
+  font-size: var(--fs-drop);
+} */
+/* FILIPPOS */
+/* .f-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 1.6s;
+  font-size: var(--fs-drop);
+}
+.i-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 1.8s;
+  font-size: var(--fs-drop);
+}
+.l-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 2s;
+  font-size: var(--fs-drop);
+}
+.i2-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 2.2s;
+  font-size: var(--fs-drop);
+}
+.p-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 2.4s;
+  font-size: var(--fs-drop);
+}
+.p2-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 2.6s;
+  font-size: var(--fs-drop);
+}
+.o-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 2.8s;
+  font-size: var(--fs-drop);
+}
+.s-3 {
+  opacity: 0;
+  animation: drop-3 0.4s linear forwards 3s;
+  font-size: var(--fs-drop);
+} */
+
+/*<div class="header__drop-text-1">
+            <div class="h">
+              <h1>H</h1>
+            </div>
+            <div class="e">
+              <h1>e</h1>
+            </div>
+            <div class="l">
+              <h1>l</h1>
+            </div>
+            <div class="l2">
+              <h1>l</h1>
+            </div>
+            <div class="o">
+              <h1>o</h1>
+            </div>
+            <div class="komma">
+              <h1>,</h1>
+            </div>
+          </div>
+
+          <div class="header__drop-text-2">
+            <div class="i-2">
+              <h1>I</h1>
+            </div>
+            <div class="komma2">
+              <h1>'</h1>
+            </div>
+            <div class="m-2">
+              <h1>m</h1>
+            </div>
+          </div>
+
+          <div class="header__drop-text-3">
+            <div class="f-3">
+              <h1>F</h1>
+            </div>
+            <div class="i-3">
+              <h1>i</h1>
+            </div>
+            <div class="l-3">
+              <h1>l</h1>
+            </div>
+            <div class="i2-3">
+              <h1>i</h1>
+            </div>
+            <div class="p-3">
+              <h1>p</h1>
+            </div>
+            <div class="p2-3">
+              <h1>p</h1>
+            </div>
+            <div class="o-3">
+              <h1>o</h1>
+            </div>
+            <div class="s-3">
+              <h1>s</h1>
+            </div>
+          </div> /*
+
+          /* letter drop animation */
+@keyframes drop-1 {
+  0% {
+    transform: translateY(-200px) scaleY(0.9);
+    opacity: 0;
+  }
+  5% {
+    opacity: 35%;
+  }
+  50% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+  65% {
+    transform: translateY(-17px) scaleY(0.9);
+    opacity: 85%;
+  }
+  75% {
+    transform: translateY(-22px) scaleY(0.9);
+    opacity: 85%;
+  }
+  100% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+}
+@keyframes drop-2 {
+  0% {
+    transform: translateY(-200px) scaleY(0.9);
+    opacity: 0;
+  }
+  5% {
+    opacity: 35%;
+  }
+  50% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+  65% {
+    transform: translateY(-17px) scaleY(0.9);
+    opacity: 85%;
+  }
+  75% {
+    transform: translateY(-22px) scaleY(0.9);
+    opacity: 85%;
+  }
+  100% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+}
+@keyframes drop-3 {
+  0% {
+    transform: translateY(-200px) scaleY(0.9);
+    opacity: 0;
+  }
+  5% {
+    opacity: 35%;
+  }
+  50% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+  65% {
+    transform: translateY(-17px) scaleY(0.9);
+    opacity: 85%;
+  }
+  75% {
+    transform: translateY(-22px) scaleY(0.9);
+    opacity: 85%;
+  }
+  100% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 85%;
+  }
+}

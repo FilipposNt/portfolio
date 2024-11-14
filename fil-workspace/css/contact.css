@@ -1,0 +1,142 @@
+.contact {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  box-shadow: 0 0 100px 3px rgba(207, 1, 224, 0.25);
+}
+
+/* header */
+.contact__header {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: var(--fw-bold);
+}
+.contact__header-list {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1em;
+}
+.contact__header-list a {
+  color: #fff;
+}
+
+/* image */
+.contact__image {
+  border-radius: 20px;
+}
+.image-background {
+  max-width: 100%;
+}
+
+/* form */
+form {
+  max-width: 80rem;
+  margin-block: 8rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.feedback-input {
+  color: white;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  line-height: 2rem;
+  background-color: transparent;
+  border: 2px solid #fff;
+  transition: all 0.3s;
+  padding: 1.3rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #cf01e0;
+  background-color: rgb(4, 5, 60);
+}
+
+textarea {
+  height: 15rem;
+  line-height: 150%;
+  resize: none;
+}
+
+[type="submit"] {
+  width: 100%;
+  background: #a501b5;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 2.4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  transition: all 0.3s;
+  margin-top: -4px;
+}
+[type="submit"]:hover {
+  background: #cf01e0;
+}
+
+.iconify {
+  opacity: 70%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.iconify:hover {
+  opacity: 100%;
+}
+
+iconify-icon {
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    height: 50vh;
+  }
+  .contact__image {
+    height: 100%;
+  }
+  .image-background {
+    height: 100%;
+  }
+  form {
+    width: 60rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  form {
+    width: 55rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  form {
+    width: 50rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  form {
+    width: 40rem;
+  }
+  .feedback-input {
+    font-size: 2rem;
+  }
+
+  .contact__header {
+    font-size: 2.6rem;
+  }
+}
