@@ -78,6 +78,14 @@ body {
   animation: static 0.2s linear infinite both;
 }
 
+/* @media screen and (min-width: 3840px) {
+  padding: 0 12%;
+}
+
+/* @media screen and (min-width: 2560px) {
+  padding: 0 10%;
+}
+
 @media screen and (max-width: 430px) {
   .wrapper {
     padding: 0 5rem;
