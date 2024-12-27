@@ -130,7 +130,7 @@ iconify-icon {
 }
 @media screen and (max-width: 430px) {
   form {
-    width: 40rem;
+    width: 30rem;
   }
   .feedback-input {
     font-size: 2rem;
